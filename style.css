@@ -175,21 +175,45 @@ ul, li, a {
 /* Contact section */
 
 .contact-container {
-    padding: 50px 10%;
+    padding: 50px 15%;
 }
 
 .contact-main {
+    display: flex;
     background-color: #3882f6;
+    justify-content: space-around;
     padding: 40px 5%;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .contact-signup {
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
-.contact-signup > * {
-    flex: auto;
+
+.contact-signup .signup {
+    font-weight: 18px;
+    color: #f9faf8;
 }
+
+.contact-signup button {
+    padding: 9px 20px;
+    border-radius: 50px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 1px solid #f9faf8;
+    cursor: pointer;
+    font-weight: 18px;
+}
+
+.contact-signup button:hover {
+    opacity: .8;
+    color: #1f2937;
+    border-color: #1f2937;
+}
+
 
 /*Footer*/
 .footer {
